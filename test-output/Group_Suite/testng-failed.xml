@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Group_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Group_Test(failed)">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestCases.InventoryPageTest">
+        <methods>
+          <include name="add6products"/>
+          <include name="verifyTitleOfInventoryPageTest"/>
+          <include name="VerifyTwitterLogoTest"/>
+          <include name="remove2products"/>
+        </methods>
+      </class> <!-- TestCases.InventoryPageTest -->
+      <class name="TestCases.Cart_Page_Test">
+        <methods>
+          <include name="VerifyContinueshopingBtntest"/>
+          <include name="CheckoutBtntest"/>
+        </methods>
+      </class> <!-- TestCases.Cart_Page_Test -->
+      <class name="TestCases.CheckOutPage_Test">
+        <methods>
+          <include name="verifyCancleBtntest"/>
+          <include name="verifychecklabeltest"/>
+          <include name="InputInfotest"/>
+        </methods>
+      </class> <!-- TestCases.CheckOutPage_Test -->
+    </classes>
+  </test> <!-- Group_Test(failed) -->
+</suite> <!-- Failed suite [Group_Suite] -->

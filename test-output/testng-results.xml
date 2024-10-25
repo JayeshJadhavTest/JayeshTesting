@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="24" passed="19" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[URL of Swag Labs= https://www.saucedemo.com/]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-10-24T20:15:39 IST" name="Group_Suite" finished-at="2024-10-24T20:17:23 IST" duration-ms="104315">
+    <groups>
+      <group name="Sanity">
+        <method signature="Cart_Page_Test.CheckoutBtntest()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" name="CheckoutBtntest" class="TestCases.Cart_Page_Test"/>
+        <method signature="Cart_Page_Test.QTYLabeltest()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" name="QTYLabeltest" class="TestCases.Cart_Page_Test"/>
+        <method signature="Cart_Page_Test.VerifyCartLabeltest()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" name="VerifyCartLabeltest" class="TestCases.Cart_Page_Test"/>
+        <method signature="Cart_Page_Test.VerifyContinueshopingBtntest()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" name="VerifyContinueshopingBtntest" class="TestCases.Cart_Page_Test"/>
+        <method signature="Cart_Page_Test.VerifyRemovePrdcttest()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" name="VerifyRemovePrdcttest" class="TestCases.Cart_Page_Test"/>
+        <method signature="Cart_Page_Test.descrlabeltest()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" name="descrlabeltest" class="TestCases.Cart_Page_Test"/>
+        <method signature="Cart_Page_Test.verifyLogotest()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" name="verifyLogotest" class="TestCases.Cart_Page_Test"/>
+        <method signature="Cart_Page_Test.verifyTextFootertest()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" name="verifyTextFootertest" class="TestCases.Cart_Page_Test"/>
+        <method signature="Cart_Page_Test.verifylogoFtest()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" name="verifylogoFtest" class="TestCases.Cart_Page_Test"/>
+        <method signature="Cart_Page_Test.verifylogoTtest()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" name="verifylogoTtest" class="TestCases.Cart_Page_Test"/>
+        <method signature="CheckOutPage_Test.InputInfotest()[pri:0, instance:TestCases.CheckOutPage_Test@3e6f3f28]" name="InputInfotest" class="TestCases.CheckOutPage_Test"/>
+        <method signature="CheckOutPage_Test.verifyCancleBtntest()[pri:0, instance:TestCases.CheckOutPage_Test@3e6f3f28]" name="verifyCancleBtntest" class="TestCases.CheckOutPage_Test"/>
+        <method signature="CheckOutPage_Test.verifyLogotest()[pri:0, instance:TestCases.CheckOutPage_Test@3e6f3f28]" name="verifyLogotest" class="TestCases.CheckOutPage_Test"/>
+        <method signature="CheckOutPage_Test.verifychecklabeltest()[pri:0, instance:TestCases.CheckOutPage_Test@3e6f3f28]" name="verifychecklabeltest" class="TestCases.CheckOutPage_Test"/>
+        <method signature="InventoryPageTest.VerifyTwitterLogoTest()[pri:0, instance:TestCases.InventoryPageTest@7e19ebf0]" name="VerifyTwitterLogoTest" class="TestCases.InventoryPageTest"/>
+        <method signature="InventoryPageTest.add6products()[pri:0, instance:TestCases.InventoryPageTest@7e19ebf0]" name="add6products" class="TestCases.InventoryPageTest"/>
+        <method signature="InventoryPageTest.remove2products()[pri:0, instance:TestCases.InventoryPageTest@7e19ebf0]" name="remove2products" class="TestCases.InventoryPageTest"/>
+        <method signature="InventoryPageTest.verifyLogotest()[pri:0, instance:TestCases.InventoryPageTest@7e19ebf0]" name="verifyLogotest" class="TestCases.InventoryPageTest"/>
+        <method signature="LoginTest.verifyURLOfApplication()[pri:1, instance:TestCases.LoginTest@2474f125]" name="verifyURLOfApplication" class="TestCases.LoginTest"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2024-10-24T20:15:39 IST" name="Group_Test" finished-at="2024-10-24T20:17:23 IST" duration-ms="104315">
+      <class name="TestCases.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.LoginTest@2474f125]" started-at="2024-10-24T20:17:20 IST" name="setUp" finished-at="2024-10-24T20:17:23 IST" duration-ms="3153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyURLOfApplication()[pri:1, instance:TestCases.LoginTest@2474f125]" started-at="2024-10-24T20:17:23 IST" name="verifyURLOfApplication" finished-at="2024-10-24T20:17:23 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[URL of Swag Labs= https://www.saucedemo.com/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyURLOfApplication -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:TestCases.LoginTest@2474f125]" started-at="2024-10-24T20:17:23 IST" name="closeBrowser" finished-at="2024-10-24T20:17:23 IST" duration-ms="234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyURLOfApplication status=SUCCESS method=LoginTest.verifyURLOfApplication()[pri:1, instance:TestCases.LoginTest@2474f125] output=URL of Swag Labs= https://www.saucedemo.com/]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.LoginTest -->
+      <class name="TestCases.Cart_Page_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:15:39 IST" name="setUp" finished-at="2024-10-24T20:15:48 IST" duration-ms="9141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CheckoutBtntest()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:15:48 IST" name="CheckoutBtntest" finished-at="2024-10-24T20:15:50 IST" duration-ms="1811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckoutBtntest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:15:50 IST" name="closeBrowser" finished-at="2024-10-24T20:15:51 IST" duration-ms="962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:15:51 IST" name="setUp" finished-at="2024-10-24T20:15:56 IST" duration-ms="4740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="QTYLabeltest()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:15:56 IST" name="QTYLabeltest" finished-at="2024-10-24T20:15:56 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QTYLabeltest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:15:56 IST" name="closeBrowser" finished-at="2024-10-24T20:15:56 IST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:15:56 IST" name="setUp" finished-at="2024-10-24T20:16:02 IST" duration-ms="5640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyCartLabeltest()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:16:02 IST" name="VerifyCartLabeltest" finished-at="2024-10-24T20:16:02 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCartLabeltest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:16:02 IST" name="closeBrowser" finished-at="2024-10-24T20:16:02 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:16:02 IST" name="setUp" finished-at="2024-10-24T20:16:07 IST" duration-ms="4679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyContinueshopingBtntest()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:16:07 IST" name="VerifyContinueshopingBtntest" finished-at="2024-10-24T20:16:07 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyContinueshopingBtntest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:16:07 IST" name="closeBrowser" finished-at="2024-10-24T20:16:07 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:16:07 IST" name="setUp" finished-at="2024-10-24T20:16:13 IST" duration-ms="5154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyRemovePrdcttest()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:16:13 IST" name="VerifyRemovePrdcttest" finished-at="2024-10-24T20:16:13 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRemovePrdcttest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:16:13 IST" name="closeBrowser" finished-at="2024-10-24T20:16:13 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:16:13 IST" name="setUp" finished-at="2024-10-24T20:16:18 IST" duration-ms="4553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="descrlabeltest()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:16:18 IST" name="descrlabeltest" finished-at="2024-10-24T20:16:18 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- descrlabeltest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:16:18 IST" name="closeBrowser" finished-at="2024-10-24T20:16:18 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:16:18 IST" name="setUp" finished-at="2024-10-24T20:16:22 IST" duration-ms="4541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogotest()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:16:22 IST" name="verifyLogotest" finished-at="2024-10-24T20:16:22 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogotest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:16:22 IST" name="closeBrowser" finished-at="2024-10-24T20:16:23 IST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:16:23 IST" name="setUp" finished-at="2024-10-24T20:16:28 IST" duration-ms="5265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTextFootertest()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:16:28 IST" name="verifyTextFootertest" finished-at="2024-10-24T20:16:28 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTextFootertest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:16:28 IST" name="closeBrowser" finished-at="2024-10-24T20:16:28 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:16:28 IST" name="setUp" finished-at="2024-10-24T20:16:33 IST" duration-ms="4733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifylogoFtest()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:16:33 IST" name="verifylogoFtest" finished-at="2024-10-24T20:16:33 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogoFtest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:16:33 IST" name="closeBrowser" finished-at="2024-10-24T20:16:34 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:16:34 IST" name="setUp" finished-at="2024-10-24T20:16:38 IST" duration-ms="4916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifylogoTtest()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:16:38 IST" name="verifylogoTtest" finished-at="2024-10-24T20:16:39 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogoTtest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.Cart_Page_Test@6fa34d52]" started-at="2024-10-24T20:16:39 IST" name="closeBrowser" finished-at="2024-10-24T20:16:39 IST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.Cart_Page_Test -->
+      <class name="TestCases.CheckOutPage_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.CheckOutPage_Test@3e6f3f28]" started-at="2024-10-24T20:16:39 IST" name="setUp" finished-at="2024-10-24T20:16:44 IST" duration-ms="5427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="InputInfotest()[pri:0, instance:TestCases.CheckOutPage_Test@3e6f3f28]" started-at="2024-10-24T20:16:44 IST" name="InputInfotest" finished-at="2024-10-24T20:16:45 IST" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InputInfotest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.CheckOutPage_Test@3e6f3f28]" started-at="2024-10-24T20:16:45 IST" name="closeBrowser" finished-at="2024-10-24T20:16:45 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.CheckOutPage_Test@3e6f3f28]" started-at="2024-10-24T20:16:45 IST" name="setUp" finished-at="2024-10-24T20:16:50 IST" duration-ms="4987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCancleBtntest()[pri:0, instance:TestCases.CheckOutPage_Test@3e6f3f28]" started-at="2024-10-24T20:16:50 IST" name="verifyCancleBtntest" finished-at="2024-10-24T20:16:50 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCancleBtntest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.CheckOutPage_Test@3e6f3f28]" started-at="2024-10-24T20:16:50 IST" name="closeBrowser" finished-at="2024-10-24T20:16:50 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.CheckOutPage_Test@3e6f3f28]" started-at="2024-10-24T20:16:50 IST" name="setUp" finished-at="2024-10-24T20:16:56 IST" duration-ms="5158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogotest()[pri:0, instance:TestCases.CheckOutPage_Test@3e6f3f28]" started-at="2024-10-24T20:16:56 IST" name="verifyLogotest" finished-at="2024-10-24T20:16:56 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogotest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.CheckOutPage_Test@3e6f3f28]" started-at="2024-10-24T20:16:56 IST" name="closeBrowser" finished-at="2024-10-24T20:16:56 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.CheckOutPage_Test@3e6f3f28]" started-at="2024-10-24T20:16:56 IST" name="setUp" finished-at="2024-10-24T20:17:01 IST" duration-ms="4960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifychecklabeltest()[pri:0, instance:TestCases.CheckOutPage_Test@3e6f3f28]" started-at="2024-10-24T20:17:01 IST" name="verifychecklabeltest" finished-at="2024-10-24T20:17:01 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifychecklabeltest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.CheckOutPage_Test@3e6f3f28]" started-at="2024-10-24T20:17:01 IST" name="closeBrowser" finished-at="2024-10-24T20:17:01 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.CheckOutPage_Test -->
+      <class name="TestCases.InventoryPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.InventoryPageTest@7e19ebf0]" started-at="2024-10-24T20:17:01 IST" name="setUp" finished-at="2024-10-24T20:17:05 IST" duration-ms="3578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyTwitterLogoTest()[pri:0, instance:TestCases.InventoryPageTest@7e19ebf0]" started-at="2024-10-24T20:17:05 IST" name="VerifyTwitterLogoTest" finished-at="2024-10-24T20:17:05 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTwitterLogoTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.InventoryPageTest@7e19ebf0]" started-at="2024-10-24T20:17:05 IST" name="closeBrowser" finished-at="2024-10-24T20:17:05 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.InventoryPageTest@7e19ebf0]" started-at="2024-10-24T20:17:05 IST" name="setUp" finished-at="2024-10-24T20:17:09 IST" duration-ms="3533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="add6products()[pri:0, instance:TestCases.InventoryPageTest@7e19ebf0]" started-at="2024-10-24T20:17:09 IST" name="add6products" finished-at="2024-10-24T20:17:10 IST" duration-ms="1302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add6products -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.InventoryPageTest@7e19ebf0]" started-at="2024-10-24T20:17:10 IST" name="closeBrowser" finished-at="2024-10-24T20:17:10 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.InventoryPageTest@7e19ebf0]" started-at="2024-10-24T20:17:10 IST" name="setUp" finished-at="2024-10-24T20:17:14 IST" duration-ms="3821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="remove2products()[pri:0, instance:TestCases.InventoryPageTest@7e19ebf0]" started-at="2024-10-24T20:17:14 IST" name="remove2products" finished-at="2024-10-24T20:17:15 IST" duration-ms="1400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove2products -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.InventoryPageTest@7e19ebf0]" started-at="2024-10-24T20:17:15 IST" name="closeBrowser" finished-at="2024-10-24T20:17:16 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.InventoryPageTest@7e19ebf0]" started-at="2024-10-24T20:17:16 IST" name="setUp" finished-at="2024-10-24T20:17:19 IST" duration-ms="3797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogotest()[pri:0, instance:TestCases.InventoryPageTest@7e19ebf0]" started-at="2024-10-24T20:17:19 IST" name="verifyLogotest" finished-at="2024-10-24T20:17:20 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogotest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.InventoryPageTest@7e19ebf0]" started-at="2024-10-24T20:17:20 IST" name="closeBrowser" finished-at="2024-10-24T20:17:20 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.InventoryPageTest -->
+    </test> <!-- Group_Test -->
+  </suite> <!-- Group_Suite -->
+</testng-results>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AllPass_TestCasesSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestCases.LoginTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyMulticredstest" invocation-numbers="1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestCases.LoginTest -->
+      <class name="TestCases.CheckOutpage_Two_Test">
+        <methods>
+          <include name="verifylogoLinkedintest"/>
+          <include name="verifypaymentInfoLabeltest"/>
+          <include name="CloseBrowser"/>
+          <include name="verifyoverviextxttest"/>
+          <include name="verifyTextFootertest"/>
+          <include name="verifyShppingValuetest"/>
+          <include name="verifyQRTtxttest"/>
+          <include name="verifylogoFacebooktest"/>
+          <include name="verifyShippingLabeltest"/>
+          <include name="setUp"/>
+          <include name="verifyTotaltest"/>
+          <include name="verifylogoTwittertest"/>
+          <include name="verifyPricetxttest"/>
+          <include name="verifyProductInfotxttest"/>
+          <include name="verifyProductPricetest"/>
+        </methods>
+      </class> <!-- TestCases.CheckOutpage_Two_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [AllPass_TestCasesSuite] -->
